@@ -2,7 +2,7 @@ let text = document.getElementById("inner-text");
 let endCountdown = document.getElementById("end-countdown");
 let delCountdown = document.getElementById("del-countdown");
 
-text.innerHTML = "September 10";
+text.innerHTML = "Nonso's Day";
 text.style.overflow = "hidden"
 
 
@@ -49,3 +49,4 @@ window.onload = function () {
 // updates:
 // update the name of the deadline from the website
 // suggest an update of the date on the website
+// add a dark mode icon
