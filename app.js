@@ -2,8 +2,8 @@ let text = document.getElementById("inner-text");
 let endCountdown = document.getElementById("end-countdown");
 let delCountdown = document.getElementById("del-countdown");
 
-text.innerHTML = "Nonso's Day";
-text.style.overflow = "hidden"
+text.innerHTML = "Unknown";
+// text.style.overflow = "hidden"
 
 
 const updateTimer = (deadline) => {
@@ -42,7 +42,7 @@ const startTimer = (id, deadline) => {
 }
 
 window.onload = function () {
-  let deadline = new Date ("September 10, 2023 00:00:00");
+  let deadline = new Date ("November 10, 2023 00:00:00");
   startTimer("clock", deadline);
 };
 
