@@ -2,9 +2,7 @@ let text = document.getElementById("inner-text");
 let endCountdown = document.getElementById("end-countdown");
 let delCountdown = document.getElementById("del-countdown");
 
-text.innerHTML = "Unknown";
-// text.style.overflow = "hidden"
-
+text.innerHTML = "Last Day of 2023";
 
 const updateTimer = (deadline) => {
   let time = deadline - new Date();
@@ -42,7 +40,7 @@ const startTimer = (id, deadline) => {
 }
 
 window.onload = function () {
-  let deadline = new Date ("November 10, 2023 00:00:00");
+  let deadline = new Date ("December 31, 2023 23:59:59");
   startTimer("clock", deadline);
 };
 
