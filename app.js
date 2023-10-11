@@ -2,7 +2,7 @@ let text = document.getElementById("inner-text");
 let endCountdown = document.getElementById("end-countdown");
 let delCountdown = document.getElementById("del-countdown");
 
-text.innerHTML = "Last Day of 2023";
+text.innerHTML = "Last Day 2023";
 
 const updateTimer = (deadline) => {
   let time = deadline - new Date();
