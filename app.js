@@ -1,6 +1,6 @@
 let text = document.getElementById("inner-text");
 let endCountdown = document.getElementById("end-countdown");
-let delCountdown = document.getElementBy("del-countdown");
+let delCountdown = document.getElementById("del-countdown");
 
 text.innerHTML = "Last Day of 2023";
 
