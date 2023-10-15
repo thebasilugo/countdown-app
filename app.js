@@ -47,4 +47,5 @@ window.onload = function () {
 // updates:
 // update the name of the deadline from the website
 // suggest an update of the date on the website
+// show name on website
 // add a dark mode icon
