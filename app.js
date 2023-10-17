@@ -40,7 +40,7 @@ const startTimer = (id, deadline) => {
 }
 
 window.onload = function () {
-  let deadline = new Date ("December 31, 2023 23:59:59");
+  let deadline = new Date ("Dec 31, 2023 23:59:59");
   startTimer("clock", deadline);
 };
 
